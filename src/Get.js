@@ -1,13 +1,13 @@
 import genresData from '../data/movie_genres.json' with { type: 'json' };
 
-export  function mainpage(app) {
+export  function getMainPage(app) {
     app.get('/', (req, res) => {
         res.send('Api Main Page');
     });
      };
 
 
-export  function genres(app) {
+export  function getGenres(app) {
     // returns the json file with all the movie genres
     app.get('/api/genres', (req, res) => {
         res.json(genresData);

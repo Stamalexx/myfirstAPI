@@ -1,11 +1,11 @@
 import express from 'express';
-import {mainpage, genres} from './src/Get.js';
+import {getMainPage, getGenres} from './src/Get.js';
 
 const PORT = process.env.PORT || 3000;
 const app = express();
 
-mainpage(app);
-genres(app);
+getMainPage(app);
+getGenres(app);
 
 
 
