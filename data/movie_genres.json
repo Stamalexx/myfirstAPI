@@ -1,0 +1,32 @@
+{
+    "Action": [
+        "Mad Max: Fury Road",
+        "John Wick",
+        "Die Hard"
+    ],
+    "Comedy": [
+        "Superbad",
+        "The Hangover",
+        "Step Brothers"
+    ],
+    "Drama": [
+        "The Shawshank Redemption",
+        "Forrest Gump",
+        "Fight Club"
+    ],
+    "Horror": [
+        "The Conjuring",
+        "Get Out",
+        "A Nightmare on Elm Street"
+    ],
+    "Science Fiction": [
+        "Inception",
+        "Interstellar",
+        "Blade Runner 2049"
+    ],
+    "Romance": [
+        "The Notebook",
+        "Pride & Prejudice",
+        "La La Land"
+    ]
+}
